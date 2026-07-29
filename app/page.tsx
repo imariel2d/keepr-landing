@@ -3,6 +3,7 @@
 import { useEffect, useState, type CSSProperties } from "react";
 import { Icon, LogoMark, paths } from "./components/icons";
 import { mockItems, features, steps, faqs } from "./content";
+import { siteConfig } from "./config";
 
 export default function Page() {
   const [theme, setTheme] = useState<"light" | "dark">("light");
@@ -141,7 +142,9 @@ export default function Page() {
               <Icon paths={theme === "dark" ? paths.sun : paths.moon} />
             </button>
             <a
-              href="#demo"
+              href={siteConfig.repoUrl}
+              target="_blank"
+              rel="noopener noreferrer"
               style={{
                 display: "inline-flex",
                 alignItems: "center",
@@ -235,7 +238,9 @@ export default function Page() {
               }}
             >
               <a
-                href="https://github.com/imariel2d/keepr"
+                href={siteConfig.repoUrl}
+                target="_blank"
+                rel="noopener noreferrer"
                 style={{
                   display: "inline-flex",
                   alignItems: "center",
@@ -772,7 +777,9 @@ export default function Page() {
                   }}
                 >
                   <a
-                    href="https://github.com/imariel2d/keepr"
+                    href={siteConfig.repoUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     style={{
                       display: "inline-flex",
                       alignItems: "center",
@@ -1050,7 +1057,9 @@ export default function Page() {
               }}
             >
               <a
-                href="https://github.com/imariel2d/keepr"
+                href={siteConfig.repoUrl}
+                target="_blank"
+                rel="noopener noreferrer"
                 style={{
                   display: "inline-flex",
                   alignItems: "center",
