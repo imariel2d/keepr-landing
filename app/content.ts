@@ -93,7 +93,7 @@ export const steps: Step[] = [
 export const faqs: Faq[] = [
   {
     q: "Is it really free?",
-    a: "Yes. Keepr is open source under an MIT license — self-host it for free, forever. The hosted demo is there to try before you deploy your own.",
+    a: "Yes. Keepr is open source — self-host it for free, forever. The hosted demo is there to try before you deploy your own.",
   },
   {
     q: "Where are my files stored?",

@@ -794,24 +794,6 @@ export default function Page() {
                   >
                     Try the hosted demo
                   </a>
-                  <a
-                    href="#"
-                    style={{
-                      display: "inline-flex",
-                      alignItems: "center",
-                      gap: 8,
-                      height: 48,
-                      padding: "0 20px",
-                      background: "transparent",
-                      color: "#F4EFE7",
-                      fontWeight: 700,
-                      fontSize: 15,
-                      border: "1px solid var(--gray-700)",
-                      borderRadius: "var(--radius-md)",
-                    }}
-                  >
-                    <Icon paths={paths.star} size={18} /> 4.2k stars
-                  </a>
                 </div>
               </div>
               <div style={{ flex: "1 1 320px", minWidth: "min(100%,300px)" }}>
@@ -888,10 +870,6 @@ export default function Page() {
                     flexWrap: "wrap",
                   }}
                 >
-                  <div style={{ color: "var(--gray-300)", fontSize: 13 }}>
-                    <span style={{ color: "#F4EFE7", fontWeight: 700 }}>MIT</span>{" "}
-                    licensed
-                  </div>
                   <div style={{ color: "var(--gray-300)", fontSize: 13 }}>
                     <span style={{ color: "#F4EFE7", fontWeight: 700 }}>
                       Docker
